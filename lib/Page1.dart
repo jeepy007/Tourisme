@@ -23,7 +23,11 @@ class _Page1State extends State<Page1> {
       body: Center(
         child: Column(
           children: [
-            Image.network("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR27_smWDU36npmaq8bmi1PG5RLo8-HrdRXdA&usqp=CAU")
+            Container(
+              child:Image.network("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR27_smWDU36npmaq8bmi1PG5RLo8-HrdRXdA&usqp=CAU"),
+            ),
+
+
           ],
         ),
       ),
